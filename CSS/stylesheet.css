@@ -20,6 +20,7 @@ main {
   box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   width: 600px;
+  margin-top: 2rem;
 }
 .header {
   background: #fff;
