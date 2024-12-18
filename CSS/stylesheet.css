@@ -1,0 +1,102 @@
+body {
+  background: hsl(204, 43%, 93%);
+  font-family: "Karla", serif;
+  font-weight: 400;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  border-radius: 0.5rem;
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 600px;
+}
+.header {
+  background: #fff;
+  padding: 2rem;
+}
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+h2 {
+  color: hsl(71, 73%, 54%);
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+.header p {
+  color: hsl(218, 22%, 67%);
+  line-height: 1.5;
+}
+.Component {
+  color: #fff;
+  display: flex;
+}
+.description {
+  background: hsl(179, 62%, 43%);
+  flex-basis: 100%;
+  padding: 2rem;
+}
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.description p {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+.description .num {
+  margin-bottom: 2rem;
+}
+button {
+  background: hsl(71, 73%, 54%);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.4rem;
+  font-weight: 700;
+  padding: 1rem 5rem;
+}
+button:hover {
+  background-color: hsl(71, 88%, 49%);
+}
+.item-list {
+  background: rgba(42, 178, 176, 0.8);
+  flex-basis: 100%;
+  padding: 2rem;
+}
+ul {
+  color: hsl(204, 43%, 93%);
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.3rem;
+}
+li {
+  list-style: none;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(179, 62%, 43%);
+}

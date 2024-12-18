@@ -1,0 +1,63 @@
+@media (max-width: 720px) {
+  body {
+    height: 100%;
+  }
+  main {
+    width: 500px;
+  }
+  button {
+    padding: 0.7rem 3rem;
+  }
+}
+@media (max-width: 528px) {
+  main {
+    width: 400px;
+  }
+  button {
+    padding: 1rem 8rem;
+  }
+  .Component {
+    flex-direction: column;
+  }
+}
+@media (max-width: 420px) {
+  main {
+    width: 300px;
+  }
+  button {
+    font-size: 0.7rem;
+    padding: 1rem 5rem;
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  .header p {
+    font-size: 0.8rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  span {
+    font-size: 1.4rem;
+  }
+  .description p {
+    gap: 0.5rem;
+  }
+  .description .num {
+    font-size: 0.8rem;
+  }
+  .item-list {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 326px) {
+  main {
+    width: 250px;
+  }
+  button {
+    padding: 0.6rem 4rem;
+  }
+}
